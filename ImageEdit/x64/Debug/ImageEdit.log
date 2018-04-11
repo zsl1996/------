@@ -1,0 +1,68 @@
+﻿  Generate moc_predefs.h
+  Moc'ing mainwindow.h...
+  Uic'ing mainwindow.ui...
+  expcode.cpp
+  main.cpp
+  mainwindow.cpp
+  mat.cpp
+c:\users\23925\desktop\------\imageedit\expcode.cpp(79): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+c:\users\23925\desktop\------\imageedit\expcode.cpp(152): warning C4100: “mwidth”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(152): warning C4100: “mheight”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(152): warning C4100: “pixelmat”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(164): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+c:\users\23925\desktop\------\imageedit\expcode.cpp(173): warning C4100: “mwidth”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(173): warning C4100: “mheight”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(173): warning C4100: “pixelmat”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(179): warning C4100: “mwidth”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(179): warning C4100: “mheight”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(179): warning C4100: “pixelmat”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(185): warning C4100: “mwidth”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(185): warning C4100: “mheight”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(185): warning C4100: “pixelmat”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(191): warning C4100: “mwidth”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(191): warning C4100: “mheight”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(191): warning C4100: “pixelmat”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(197): warning C4100: “mwidth”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(197): warning C4100: “mheight”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(197): warning C4100: “pixelmat”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(219): warning C4100: “mwidth”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(219): warning C4100: “mheight”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(219): warning C4100: “pixelmat”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(219): warning C4100: “framemat”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(225): warning C4100: “mwidth”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(225): warning C4100: “mheight”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(225): warning C4100: “pixelmat”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(225): warning C4100: “framemat”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(231): warning C4100: “mwidth”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(231): warning C4100: “mheight”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(231): warning C4100: “pixelmat”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(231): warning C4100: “framemat”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(237): warning C4100: “mwidth”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(237): warning C4100: “mheight”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(237): warning C4100: “pixelmat”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(243): warning C4100: “mwidth”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(243): warning C4100: “mheight”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(243): warning C4100: “pixelmat”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(249): warning C4100: “mwidth”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(249): warning C4100: “mheight”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(249): warning C4100: “pixelmat”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(255): warning C4100: “mwidth”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(255): warning C4100: “mheight”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(255): warning C4100: “pixelmat”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(261): warning C4100: “mwidth”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(261): warning C4100: “mheight”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(261): warning C4100: “pixelmat”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(267): warning C4100: “mwidth”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(267): warning C4100: “mheight”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(267): warning C4100: “pixelmat”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(273): warning C4100: “mwidth”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(273): warning C4100: “mheight”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(273): warning C4100: “pixelmat”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(279): warning C4100: “mwidth”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(279): warning C4100: “mheight”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(279): warning C4100: “pixelmat”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(286): warning C4100: “mwidth”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(286): warning C4100: “mheight”: 未引用的形参
+c:\users\23925\desktop\------\imageedit\expcode.cpp(286): warning C4100: “pixelmat”: 未引用的形参
+  moc_mainwindow.cpp
+  ImageEdit.vcxproj -> C:\Users\23925\Desktop\------\ImageEdit\debug\ImageEdit.exe
