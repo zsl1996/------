@@ -2,10 +2,56 @@
 #include <iostream>
 #include<mat.h>
 using namespace std;
+int QuickSortOnce(int a[], int low, int high)
+{  
+	int pivot = a[low];
+	int i = low, j = high;
+	while (i < j)
+	{
+		while (a[j] >= pivot && i < j)
+		{
+			j--;
+		}  
+		a[i] = a[j];  
+		while (a[i] <= pivot && i < j)
+		{
+			i++;
+		}
+		a[j] = a[i];
+	} 
+	a[i] = pivot;
 
-//定义了一个表示矩阵的类
+	return i;
+}
 
+void QuickSort(int a[], int low, int high)
+{
+	if (low >= high)
+	{
+		return;
+	}
+
+	int pivot = QuickSortOnce(a, low, high);
+
+  
+	QuickSort(a, low, pivot - 1);
+	QuickSort(a, pivot + 1, high);
+}
+
+int EvaluateMedian(int a[], int n)
+{
+	QuickSort(a, 0, n - 1);
+	if (n % 2 != 0)
+	{
+		return a[n / 2];
+	}
+	else
+	{
+		return (a[n / 2] + a[n / 2 - 1]) / 2;
+	}
+}
 //示例: 求图像中心点像素的灰度值
+
 
 int midptvalue(int** pixelmat, int mheight, int mwidth)
 {
@@ -161,18 +207,23 @@ int** medianfit(int** pixelmat, int mheight, int mwidth)
 	mat m(mheight, mwidth, pixelmat);
 	for (int i = 1; i < mheight - 1; i++) {
 		for (int j = 1; j < mwidth - 1; j++) {
-			pixelmat[i][j] = float(m.param[i - 1][j - 1] + m.param[i - 1][j] + m.param[i - 1][j + 1] + m.param[i][j - 1] + m.param[i][j] + m.param[i][j + 1] + m.param[i + 1][j - 1] + m.param[i + 1][j] + m.param[i + 1][j + 1]) / 9;
+			int a[9] = { m.param[i - 1][j - 1] , m.param[i - 1][j] , m.param[i - 1][j + 1] , m.param[i][j - 1] , m.param[i][j] , m.param[i][j + 1] , m.param[i + 1][j - 1] , m.param[i + 1][j] , m.param[i + 1][j + 1] };
+			pixelmat[i][j]=EvaluateMedian(a, 9);
 		}
-		
 	}
-	return pixelmat;S
-
+	return pixelmat;
 }
 
 //均值滤波, 返回处理后的图像
 int** averagefit(int** pixelmat, int mheight, int mwidth)
 {
-	return NULL;
+	mat m(mheight, mwidth, pixelmat);
+	for (int i = 1; i < mheight - 1; i++) {
+		for (int j = 1; j < mwidth - 1; j++) {
+			pixelmat[i][j] = float(m.param[i - 1][j - 1] + m.param[i - 1][j] + m.param[i - 1][j + 1] + m.param[i][j - 1] + m.param[i][j] + m.param[i][j + 1] + m.param[i + 1][j - 1] + m.param[i + 1][j] + m.param[i + 1][j + 1]) / 9;
+		}
+	}
+	return pixelmat;
 }
 
 //理想低通滤波, 返回处理后的图像
@@ -235,8 +286,12 @@ int** scaling(int** framemat, int** pixelmat, int mheight, int mwidth)
 
 //DFT变换, 返回处理后的图像, 注意缩放到0~255的整型
 int** DFT(int** pixelmat, int mheight, int mwidth)
-{
-	return NULL;
+{	
+	mat m(mheight, mwidth, pixelmat);
+	m.getDFT();
+	m.printDFT();
+
+	return m.param;
 }
 
 //DCT变换, 返回处理后的图像
